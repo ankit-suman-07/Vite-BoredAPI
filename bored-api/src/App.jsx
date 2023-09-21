@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { ApiData } from './ApiData';
-import { ApiEmpty } from './ApiEmpty';
 
 import './App.css'
 
