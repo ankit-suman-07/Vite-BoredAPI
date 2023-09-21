@@ -46,7 +46,7 @@ function App() {
         
       </div>
       <footer>
-        This website has been developed using Vite + React by <a href='https://ankitsuman.netlify.app/' >ankitsuman07@gmail.com</a>
+        Created using Vite + React by <a href='https://ankitsuman.netlify.app/' >ankitsuman07@gmail.com</a>
       </footer>
     </div>
   )
