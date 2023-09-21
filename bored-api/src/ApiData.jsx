@@ -17,10 +17,14 @@ export const ApiData = ({type}) => {
   };
   return (
       <div className='api-div' >
-          <button onClick={fetchData} > Click Here </button>
+        
+        <button onClick={fetchData} className='button-52' > Get Activity </button>
+        <div className='task-display' >
           {
               data.activity
           }
         </div>
+          
+      </div>
   )
 }

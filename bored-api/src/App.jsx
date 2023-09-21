@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ApiData } from './ApiData';
+import { ApiEmpty } from './ApiEmpty';
 
 import './App.css'
 
@@ -23,11 +24,9 @@ function App() {
       </nav>
       
       <div className='main-area' >
-        <div className='task-div' >
-          <ApiData type={type} />
-        </div>
+        
         <div className='option-div' >
-          <h2>Select an Option:</h2>
+          <span className='label' >Select an Option:</span>
           <select value={type} onChange={handleOptionChange}>
             <option value="">Random</option>
             {
@@ -40,12 +39,15 @@ function App() {
             }
         
       </select>
-      <p>Selected Option: {type}</p>
+      {/* <p>Selected Option: {type}</p> */}
+        </div>
+        <div className='task-div' >
+          <ApiData type={type} />
         </div>
         
       </div>
       <footer>
-        This is a Vite website
+        This website has been developed using Vite + React by <a href='https://ankitsuman.netlify.app/' >ankitsuman07@gmail.com</a>
       </footer>
     </div>
   )
