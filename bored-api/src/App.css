@@ -42,7 +42,7 @@ a {
 .main-area {
   /* border: 2px solid red; */
   background-color: #E6E6E6;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 160px);
   margin: 10px;
   display: flex;
   flex-direction: column;
